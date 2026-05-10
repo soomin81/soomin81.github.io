@@ -1,6 +1,6 @@
 +++
 date = '2026-05-10T21:31:29+09:00'
-draft = fasle
+draft = false
 title = 'WSL2로 개발환경 구축하기 2편 - SDKMAN + JDK 설치'
 +++
 # WSL2로 개발환경 구축하기 2편 - SDKMAN + JDK 설치

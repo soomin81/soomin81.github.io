@@ -1,4 +1,38 @@
 baseURL = 'https://soomin81.github.io/'
 locale = 'ko-kr'
-title = '내 블로그'
+title = '수민의 개발 블로그'
 theme = "PaperMod"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]  # 검색 기능에 필요
+
+[params]
+defaultTheme = "auto"           # 시스템 다크/라이트 모드 따라감
+ShowReadingTime = true          # 읽기 시간 표시
+ShowPostNavLinks = true         # 다음글/이전글
+ShowCodeCopyButtons = true      # 코드 복사 버튼
+ShowToc = true                  # 목차
+TocOpen = false                 # 목차 기본 접힘
+ShowBreadCrumbs = true          # 경로 표시
+ShowLastMod = true              # 수정일 표시
+
+[params.homeInfoParams]
+Title = "안녕하세요 👋"
+Content = "개발 블로그입니다"
+
+# 상단 메뉴
+[[menus.main]]
+name = "글 목록"
+url = "/posts/"
+weight = 1
+
+[[menus.main]]
+name = "태그"
+url = "/tags/"
+weight = 2
+
+[[menus.main]]
+name = "검색"
+url = "/search/"
+weight = 3
+

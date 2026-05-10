@@ -14,7 +14,7 @@ ShowCodeCopyButtons = true      # 코드 복사 버튼
 ShowToc = true                  # 목차
 TocOpen = false                 # 목차 기본 접힘
 ShowBreadCrumbs = true          # 경로 표시
-ShowLastMod = true              # 수정일 표시
+ShowLastModified = true              # 수정일 표시
 
 [params.homeInfoParams]
 Title = "안녕하세요 👋"

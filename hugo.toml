@@ -8,6 +8,7 @@ home = ["HTML", "RSS", "JSON"]  # 검색 기능에 필요
 
 [params]
 defaultTheme = "auto"           # 시스템 다크/라이트 모드 따라감
+ShowCategories = true
 ShowReadingTime = true          # 읽기 시간 표시
 ShowPostNavLinks = true         # 다음글/이전글
 ShowCodeCopyButtons = true      # 코드 복사 버튼

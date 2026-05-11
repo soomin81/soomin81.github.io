@@ -1,6 +1,6 @@
 +++
 date = '2026-05-11T22:24:17+09:00'
-draft = true
+draft = false
 title = 'Mysql Index Guide'
 categories = ["Database"]
 tags = ["mysql", "database", "index", "performance", "backend"]

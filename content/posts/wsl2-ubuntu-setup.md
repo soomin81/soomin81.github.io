@@ -2,7 +2,6 @@
 date = '2026-05-09T12:55:25+09:00'
 draft = false
 title = 'WSL2로 개발환경 구축하기 1편 - WSL2 설치 및 Ubuntu 기본 세팅'
-draft = false
 categories = ["개발"]
 tags = ["wsl2", "ubuntu", "windows", "linux"]
 +++

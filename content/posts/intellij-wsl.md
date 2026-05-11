@@ -2,7 +2,6 @@
 date = '2026-05-10T21:48:22+09:00'
 draft = false
 title = 'WSL2로 개발환경 구축하기 4편 - IntelliJ WSL 원격 개발 환경 설정'
-draft = false
 categories = ["개발"]
 tags = ["wsl2", "intellij", "spring-boot", "kotlin"]
 +++

@@ -96,31 +96,31 @@ dependencies {
     runtimeOnly("com.mysql.cj:mysql-connector-j")
 }
 
-// jOOQ 코드 생성 플러그인
+// jOOQ 코드 생성 플러그인 (공식)
 plugins {
-    id("nu.studer.jooq") version "9.0"
+    id("org.jooq.jooq-codegen-gradle") version "3.19.18"
+}
+
+dependencies {
+    jooqCodegen("com.mysql.cj:mysql-connector-j")
 }
 
 jooq {
-    configurations {
-        create("main") {
-            jooqConfiguration.apply {
-                jdbc.apply {
-                    driver = "com.mysql.cj.jdbc.Driver"
-                    url = "jdbc:mysql://localhost:3306/yourdb"
-                    user = "root"
-                    password = "password"
-                }
-                generator.apply {
-                    database.apply {
-                        name = "org.jooq.meta.mysql.MySQLDatabase"
-                        inputSchema = "yourdb"
-                    }
-                    target.apply {
-                        packageName = "com.yourcompany.generated.jooq"
-                        directory = "src/generated/jooq"
-                    }
-                }
+    configuration {
+        jdbc {
+            driver = "com.mysql.cj.jdbc.Driver"
+            url = "jdbc:mysql://localhost:3306/yourdb"
+            user = "root"
+            password = "password"
+        }
+        generator {
+            database {
+                name = "org.jooq.meta.mysql.MySQLDatabase"
+                inputSchema = "yourdb"
+            }
+            target {
+                packageName = "com.yourcompany.generated.jooq"
+                directory = "src/generated/jooq"
             }
         }
     }

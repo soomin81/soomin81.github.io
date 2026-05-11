@@ -5,6 +5,7 @@ title = "WSL에서 Hugo 블로그 설치부터 GitHub Pages 배포까지"
 categories = ["개발"]
 tags = ["hugo", "github-pages", "wsl", "blog"]
 +++
+
 ## 개요
 
 WSL(Windows Subsystem for Linux) 환경에서 Hugo를 설치하고 GitHub Pages에 배포하는 과정을 정리했습니다.

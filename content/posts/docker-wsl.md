@@ -5,6 +5,7 @@ title = 'WSL2로 개발환경 구축하기 3편 - Docker Desktop 설치 및 WSL 
 categories = ["개발"]
 tags = ["wsl2", "docker", "docker-desktop", "windows"]
 +++
+
 ## 들어가며
 
 이번 편에서는 Docker Desktop을 설치하고 WSL2와 연동합니다.

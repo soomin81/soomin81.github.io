@@ -5,6 +5,7 @@ title = 'WSL2로 개발환경 구축하기 2편 - SDKMAN + JDK 설치'
 categories = ["개발"]
 tags = ["wsl2", "sdkman", "jdk", "java"]
 +++
+
 ## 들어가며
 
 이번 편에서는 SDKMAN을 사용해 JDK를 설치합니다.

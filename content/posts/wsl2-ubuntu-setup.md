@@ -5,6 +5,7 @@ title = 'WSL2로 개발환경 구축하기 1편 - WSL2 설치 및 Ubuntu 기본 
 categories = ["개발"]
 tags = ["wsl2", "ubuntu", "windows", "linux"]
 +++
+
 ## 들어가며
 
 Windows에서 개발하다 보면 Linux 환경이 필요한 경우가 많습니다.

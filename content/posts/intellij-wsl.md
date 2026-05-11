@@ -5,6 +5,7 @@ title = 'WSL2로 개발환경 구축하기 4편 - IntelliJ WSL 원격 개발 환
 categories = ["개발"]
 tags = ["wsl2", "intellij", "spring-boot", "kotlin"]
 +++
+
 ## 들어가며
 
 마지막 편에서는 IntelliJ IDEA에서 WSL 원격 개발 환경을 설정합니다.

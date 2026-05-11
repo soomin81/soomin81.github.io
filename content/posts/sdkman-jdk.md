@@ -2,16 +2,17 @@
 date = '2026-05-10T21:31:29+09:00'
 draft = false
 title = 'WSL2로 개발환경 구축하기 2편 - SDKMAN + JDK 설치'
+draft = false
 categories = ["개발"]
+tags = ["wsl2", "sdkman", "jdk", "java"]
 +++
-# WSL2로 개발환경 구축하기 2편 - SDKMAN + JDK 설치
-
 ## 들어가며
 
 이번 편에서는 SDKMAN을 사용해 JDK를 설치합니다.
 SDKMAN은 JDK, Kotlin, Gradle 등 JVM 관련 SDK를 버전별로 쉽게 관리할 수 있는 도구입니다.
 
 ### 시리즈 구성
+
 - 1편 - WSL2 설치 및 Ubuntu 기본 세팅
 - **2편 - SDKMAN + JDK 설치** ← 현재 글
 - 3편 - Docker Desktop 설치 및 WSL 연동
@@ -123,4 +124,3 @@ sdk default java 21.0.7-tem
 
 SDKMAN과 JDK 설치가 완료되었습니다.
 다음 편에서는 Docker Desktop을 설치하고 WSL과 연동하는 방법을 다룹니다.
-

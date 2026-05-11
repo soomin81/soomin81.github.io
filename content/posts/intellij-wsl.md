@@ -2,16 +2,17 @@
 date = '2026-05-10T21:48:22+09:00'
 draft = false
 title = 'WSL2로 개발환경 구축하기 4편 - IntelliJ WSL 원격 개발 환경 설정'
+draft = false
 categories = ["개발"]
+tags = ["wsl2", "intellij", "spring-boot", "kotlin"]
 +++
-# WSL2로 개발환경 구축하기 4편 - IntelliJ WSL 원격 개발 환경 설정
-
 ## 들어가며
 
 마지막 편에서는 IntelliJ IDEA에서 WSL 원격 개발 환경을 설정합니다.
 WSL 원격 개발을 사용하면 IntelliJ의 편의성을 유지하면서 실제 Linux 환경에서 개발할 수 있습니다.
 
 ### 시리즈 구성
+
 - 1편 - WSL2 설치 및 Ubuntu 기본 세팅
 - 2편 - SDKMAN + JDK 설치
 - 3편 - Docker Desktop 설치 및 WSL 연동
@@ -48,7 +49,7 @@ mkdir ~/projects
 ```
 
 > Windows 드라이브(`/mnt/c/...`)에 프로젝트를 만들면 파일 I/O 성능이 크게 저하됩니다.
-> 반드시 WSL 홈 디렉토리(`/home/유저명/`) 안에 만드세요.
+> 반드시 WSL 홈 디렉토리(`~/`) 안에 만드세요.
 
 ---
 
@@ -72,7 +73,7 @@ WSL 원격으로 연결된 IntelliJ에서
 
 | 항목 | 값 |
 |------|-----|
-| 위치 | `/home/sumin/projects/프로젝트명` |
+| 위치 | `~/projects/프로젝트명` |
 | 언어 | Kotlin |
 | 빌드 시스템 | Gradle - Kotlin |
 | JDK | 25.0.2-librca |
@@ -109,4 +110,3 @@ WSL2 기반 Java/Kotlin 개발환경 구축이 모두 완료되었습니다.
 | IntelliJ IDEA | 2026.1.1 Ultimate |
 
 이제 Windows에서도 Linux 환경과 동일하게 Spring Boot + Kotlin 개발을 할 수 있습니다.
-

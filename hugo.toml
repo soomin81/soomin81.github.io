@@ -18,7 +18,7 @@ favicon = "/favicon.ico"        # 파비콘
 
 [params.homeInfoParams]
 Title = "안녕하세요 👋"
-Content = "기억은 휘발되지만 기록은 남습니다.<br>검색해도 없어서 직접 씁니다.<br>미래의 나를 위한 메모장입니다."
+Content = "기억은 휘발되지만 기록은 남습니다.  \n검색해도 없어서 직접 씁니다.  \n미래의 나를 위한 메모장입니다."
 
 # 상단 메뉴
 [[menus.main]]

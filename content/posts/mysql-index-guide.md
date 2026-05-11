@@ -1,7 +1,7 @@
 +++
 date = '2026-05-11T22:24:17+09:00'
 draft = false
-title = 'Mysql Index Guide'
+title = 'MySQL Index 가이드'
 categories = ["Database"]
 tags = ["mysql", "database", "index", "performance", "backend"]
 +++

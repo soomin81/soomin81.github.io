@@ -1,7 +1,7 @@
 +++
 date = '2026-05-11T21:51:39+09:00'
 draft = false
-title = "WSL에서 Hugo 블로그 설치부터 GitHub Pages 배포까지"
+title = "Hugo 블로그 설치부터 GitHub Pages 배포까지"
 categories = ["개발"]
 tags = ["hugo", "github-pages", "wsl", "blog"]
 +++
